@@ -14,15 +14,31 @@ import {
   MapPin,
   ArrowUp
 } from 'lucide-react'
+
+// X icon (formerly Twitter) - official X logo
+const XIcon = ({ className, ...props }: { className?: string; [key: string]: any }) => (
+  <svg 
+    className={className} 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M18 6L6 18M6 6l12 12" />
+  </svg>
+)
 import { Button } from '@/components/ui/button'
 import { useLanguage } from '@/contexts/language-context'
 
 
 const socialLinks = [
-  { name: 'Facebook', icon: Facebook, href: 'https://facebook.com/belovech' },
-  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/belovech' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com/company/belovech' },
-  { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/belovech' },
+
+  { name: 'X', icon: XIcon, href: 'https://x.com/_belovech' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com/in/sirbyrone' },
+  { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/goodboybyrone' },
   { name: 'YouTube', icon: Youtube, href: 'https://youtube.com/belovech' },
 ]
 
@@ -31,6 +47,21 @@ export function Footer() {
   
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const handleNewsletterSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    const emailInput = e.currentTarget.querySelector('input[type="email"]') as HTMLInputElement
+    const email = emailInput?.value
+    
+    if (email && email.includes('@')) {
+      // Here you would typically send this to your backend
+      console.log('Newsletter subscription:', email)
+      alert(`Thank you for subscribing with email: ${email}`)
+      emailInput.value = ''
+    } else {
+      alert('Please enter a valid email address')
+    }
   }
   
   const footerLinks = {
@@ -55,7 +86,7 @@ export function Footer() {
     legal: [
       { name: t('footer.links.privacyPolicy'), href: '/privacy' },
       { name: t('footer.links.termsOfService'), href: '/terms' },
-      { name: t('footer.links.cookiePolicy'), href: '/cookies' },
+      { name: t('footer.links.cookiePolicy'), href: '/cookie-policy' },
       { name: t('footer.links.gdprCompliance'), href: '/gdpr' },
     ],
   }
@@ -79,10 +110,14 @@ export function Footer() {
                     width={40}
                     height={40}
                     className="w-full h-full object-contain"
-                    onError={(e) => {
+                    onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
                       // Fallback to CSS logo if image fails to load
-                      e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextElementSibling.style.display = 'block';
+                      const target = e.currentTarget;
+                      target.style.display = 'none';
+                      const nextElement = target.nextElementSibling as HTMLElement;
+                      if (nextElement) {
+                        nextElement.style.display = 'block';
+                      }
                     }}
                   />
                   <div className="w-full h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full relative overflow-hidden hidden"
@@ -185,14 +220,15 @@ export function Footer() {
               </p>
             </div>
             
-            <div className="flex w-full md:w-auto gap-2">
+            <form onSubmit={handleNewsletterSubmit} className="flex w-full md:w-auto gap-2">
               <input
                 type="email"
                 placeholder={t('footer.enterEmail')}
                 className="input-field flex-1 md:w-80"
+                required
               />
-              <Button className="whitespace-nowrap">{t('footer.subscribe')}</Button>
-            </div>
+              <Button type="submit" className="whitespace-nowrap">{t('footer.subscribe')}</Button>
+            </form>
           </div>
         </div>
 

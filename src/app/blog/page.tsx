@@ -280,13 +280,15 @@ function BlogContent() {
                 <Button 
                   size="lg"
                   className="bg-white text-primary-600 hover:bg-white/90 font-semibold"
+                  onClick={() => window.open('https://x.com/_belovech', '_blank')}
                 >
-                  Follow on Twitter
+                  Follow on X
                 </Button>
                 <Button 
                   size="lg"
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-primary-600 font-semibold"
+                  onClick={() => window.open('https://linkedin.com/in/sirbyrone', '_blank')}
                 >
                   Connect on LinkedIn
                 </Button>

@@ -1,5 +1,15 @@
 {
-  "/portfolio/page": "app/portfolio/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
   "/blog/page": "app/blog/page.js",
-  "/page": "app/page.js"
+  "/cookie-policy/page": "app/cookie-policy/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/gdpr/page": "app/gdpr/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/services/page": "app/services/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/careers/page": "app/careers/page.js"
 }

@@ -33,44 +33,14 @@ import { useLanguage } from '@/contexts/language-context'
 const contactData = {
   offices: [
     {
-      name: "Headquarters",
-      address: "123 Innovation Drive, San Francisco, CA 94105",
+      name: "Global Headquarters",
+      address: "Digital First - Operating Worldwide",
       phone: "+254106573717",
       email: "belovechtechnologies@gmail.com",
-      hours: "Mon-Fri: 9:00 AM - 6:00 PM PST",
-      timezone: "Pacific Time",
+      hours: "24/7 Online Support",
+      timezone: "Global Time Zones",
       icon: MapPinIcon,
-      coordinates: { lat: 37.7749, lng: -122.4194 }
-    },
-    {
-      name: "East Coast Office",
-      address: "456 Tech Boulevard, New York, NY 10001",
-      phone: "+254106573717",
-      email: "belovechtechnologies@gmail.com",
-      hours: "Mon-Fri: 9:00 AM - 6:00 PM EST",
-      timezone: "Eastern Time",
-      icon: MapPinIcon,
-      coordinates: { lat: 40.7589, lng: -73.9851 }
-    },
-    {
-      name: "European Office",
-      address: "789 Innovation Square, London, UK EC1A 4HD",
-      phone: "+254106573717",
-      email: "belovechtechnologies@gmail.com",
-      hours: "Mon-Fri: 9:00 AM - 6:00 PM GMT",
-      timezone: "Greenwich Mean Time",
-      icon: MapPinIcon,
-      coordinates: { lat: 51.5074, lng: -0.1278 }
-    },
-    {
-      name: "Asia Pacific Office",
-      address: "321 Technology Park, Singapore 138588",
-      phone: "+254106573717",
-      email: "belovechtechnologies@gmail.com",
-      hours: "Mon-Fri: 9:00 AM - 6:00 PM SGT",
-      timezone: "Singapore Time",
-      icon: MapPinIcon,
-      coordinates: { lat: 1.3521, lng: 103.8198 }
+      coordinates: { lat: 0.0, lng: 0.0 }
     }
   ],
 
@@ -178,12 +148,11 @@ const contactData = {
   ],
 
   socialMedia: [
-    { name: "LinkedIn", url: "https://linkedin.com/company/belovech", icon: "linkedin" },
-    { name: "Twitter", url: "https://twitter.com/belovech", icon: "twitter" },
-    { name: "Facebook", url: "https://facebook.com/belovech", icon: "facebook" },
-    { name: "Instagram", url: "https://instagram.com/belovech", icon: "instagram" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/sirbyrone", icon: "linkedin" },
+    { name: "X", url: "https://x.com/_belovech", icon: "twitter" },
+    { name: "Instagram", url: "https://instagram.com/goodboybyrone", icon: "instagram" },
     { name: "YouTube", url: "https://youtube.com/belovech", icon: "youtube" },
-    { name: "GitHub", url: "https://github.com/belovech", icon: "github" }
+    
   ]
 }
 
@@ -217,9 +186,64 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
-    // You can add your form submission logic here
+    
+    // Validate form
+    if (!formData.name || !formData.email || !formData.message) {
+      alert('Please fill in all required fields (Name, Email, and Message)')
+      return
+    }
+    
+    // Create email content
+    const emailContent = `
+      New Contact Form Submission
+      From: ${formData.name} (${formData.email})
+      Company: ${formData.company || 'Not provided'}
+      Phone: ${formData.phone || 'Not provided'}
+      Department: ${formData.department || 'General'}
+      Subject: ${formData.subject || 'Contact Form Submission'}
+      
+      Message:
+      ${formData.message}
+      
+      ---
+      This email was sent from the Belovech Technologies contact form.
+      Sent: ${new Date().toLocaleString()}
+    `
+    
+    // Send email using simple mailto link (fallback for demo)
+    const mailtoLink = `mailto:belovechtechnologies@gmail.com?subject=${encodeURIComponent(formData.subject || 'Contact Form Submission')}&body=${encodeURIComponent(emailContent)}`
+    
+    // Open email client with prefilled content
+    window.open(mailtoLink, '_blank')
+    
+    console.log('Email client opened with:', mailtoLink)
+    
+    // Reset form
+    setFormData({
+      name: '',
+      email: '',
+      company: '',
+      phone: '',
+      subject: '',
+      department: '',
+      message: '',
+      budget: '',
+      timeline: ''
+    })
+    
+    // You can integrate with EmailJS, SendGrid, or other email services here
+    // Example with EmailJS:
+    /*
+    emailjs.sendForm('service_id', 'template_id', {
+      from_name: formData.name,
+      from_email: formData.email,
+      to_email: 'belovechtechnologies@gmail.com',
+      subject: formData.subject,
+      message: formData.message,
+      company: formData.company,
+      phone: formData.phone
+    })
+    */
   }
 
   if (!mounted) {
@@ -331,7 +355,18 @@ function ContactContent({ formData, handleInputChange, handleSubmit }: any) {
                   <Button 
                     size="sm"
                     className="w-full bg-gradient-to-r from-primary-500 to-accent-500 hover:from-primary-600 hover:to-accent-600 text-white"
-                    onClick={() => window.location.href = method.href}
+                    onClick={() => {
+                      // Find and open AI chat widget
+                      const chatWidget = document.querySelector('[data-ai-chat-widget]') as HTMLElement
+                      if (chatWidget) {
+                        chatWidget.click()
+                        // Scroll to chat widget
+                        chatWidget.scrollIntoView({ behavior: 'smooth' })
+                      } else {
+                        // Fallback if widget not found
+                        alert('AI Chat is available in the bottom right corner of your screen!')
+                      }
+                    }}
                   >
                     {method.action}
                   </Button>

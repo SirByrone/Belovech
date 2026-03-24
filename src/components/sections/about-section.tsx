@@ -102,8 +102,8 @@ const aboutContent = {
         role: "Chief Executive Officer",
         bio: "A visionary founder with 8+ years of experience in technology and business transformation. A forward-thinking leader who drives innovation and excellence in the tech industry, combining strategic vision with hands-on technical expertise to guide Belovech toward groundbreaking achievements.",
         image: "/api/placeholder/300/300",
-        linkedin: "https://linkedin.com/in/byroneopande",
-        email: "belovechtechnologies@gmail.com"
+        linkedin: "https://linkedin.com/in/sirbyrone",
+        email: "opandebyron2015@gmail.com"
       },
       {
         name: "Samuel Livio",
