@@ -20,201 +20,171 @@ import {
   Shield,
   Zap,
   Database,
-  Cloud
+  Cloud,
+  ShoppingBag,
+  Share2,
+  Heart,
+  LayoutDashboard
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useResponsiveBackgroundImage } from '@/hooks/useResponsiveBackgroundImage'
 import { useLanguage } from '@/contexts/language-context'
 
+// Define TypeScript interfaces
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  category: string;
+  client: string;
+  year: string;
+  duration: string;
+  status: string;
+  icon: any;
+  technologies: string[];
+  results: string[];
+}
+
+interface PortfolioContentProps {
+  selectedCategory: string;
+  setSelectedCategory: (category: string) => void;
+  filteredProjects: Project[];
+}
+
 const portfolioData = {
   featuredProjects: [
     {
       id: 1,
-      title: "Global Healthcare Platform",
-      description: "Comprehensive healthcare management system serving 2M+ patients across 15 countries",
-      category: "Healthcare",
+      title: "National Threat Early Warning System",
+      description: "A predictive machine learning platform designed to detect and alert authorities of security threats in real-time.",
+      category: "Cybersecurity",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Docker"],
-      duration: "12 months",
-      team: "25 developers",
-      budget: "$2.5M",
+      technologies: ["Java", "React", "Python", "PostgreSQL", "Scikit-learn"],
+      client: "Government Security Agency",
+      year: "2026",
+      duration: "8 months",
+      status: "Prototype / Finalist",
+      icon: Shield,
       results: [
-        "2M+ active users",
-        "99.9% uptime",
-        "40% cost reduction",
-        "50% faster processing"
+        "National Finalist recognition",
+        "98% predictive accuracy",
+        "Real-time data visualization dashboard",
+        "Automated incident reporting"
       ],
-      client: "Global Health Corp",
-      year: "2024",
-      status: "Live",
-      links: {
-        live: "https://healthcare-platform.com",
-        github: "https://github.com/belovech/healthcare-platform"
-      },
-      icon: Monitor
+    
     },
     {
       id: 2,
-      title: "AI-Powered Trading System",
-      description: "Advanced algorithmic trading platform with machine learning capabilities",
-      category: "Finance",
-      image: "/api/placeholder/600/400",
-      technologies: ["Python", "TensorFlow", "Kubernetes", "Redis", "PostgreSQL"],
-      duration: "8 months",
-      team: "18 developers",
-      budget: "$1.8M",
-      results: [
-        "35% higher returns",
-        "Real-time processing",
-        "99.95% accuracy",
-        "24/7 operation"
-      ],
-      client: "Quantum Capital",
-      year: "2024",
-      status: "Live",
-      links: {
-        live: "https://ai-trading-system.com",
-        github: "https://github.com/belovech/ai-trading"
-      },
-      icon: Brain
-    },
-    {
-      id: 3,
-      title: "E-commerce Marketplace",
-      description: "Multi-vendor e-commerce platform with advanced analytics and AI recommendations",
+      title: "Mythic Wear E-commerce",
+      description: "A full-stack multi-product retail platform featuring a modern shopping experience and secure checkout.",
       category: "E-commerce",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Node.js", "MongoDB", "Redis", "AWS"],
-      duration: "10 months",
-      team: "22 developers",
-      budget: "$2.2M",
-      results: [
-        "500K+ products",
-        "1M+ monthly users",
-        "25% conversion rate",
-        "60% mobile traffic"
-      ],
-      client: "MarketPlace Inc",
-      year: "2023",
+      technologies: ["React.js", "Go", "MySQL", "Tailwind CSS"],
+      client: "Mythic Wear Fashion Brand",
+      year: "2024",
+      duration: "12 months",
       status: "Live",
-      links: {
-        live: "https://marketplace-platform.com",
-        github: "https://github.com/belovech/marketplace"
-      },
-      icon: Globe
+      icon: ShoppingBag,
+      results: [
+        "Mobile-first responsive design",
+        "Integrated inventory management",
+        "30% faster load times via Go-based API",
+        "Secure payment gateway integration"
+      ],
+
+    },
+      {
+      id: 3,
+      title: "Social Media App (Google Play Store)",
+      description: "A high-traffic social networking application built with a microservices architecture for high scalability.",
+      category: "Mobile Apps",
+      image: "/api/placeholder/600/400",
+      technologies: ["Flutter", "Java Microservices", "Spring Boot", "Redis", "PostgreSQL"],
+      client: "Social Media Startup",
+      year: "2025",
+      duration: "15 months",
+      status: "Live",
+      icon: Share2,
+      results: [
+        "Successfully launched on Google Play Store",
+        "Supports high-concurrency user interactions",
+        "Real-time messaging and feed updates",
+        "99.9% Backend uptime"
+      ]
     },
     {
       id: 4,
-      title: "Cybersecurity Command Center",
-      description: "Real-time threat detection and response system for enterprise security",
-      category: "Cybersecurity",
+      title: "Place of Grace Community Centre",
+      description: "A comprehensive web presence and management portal for a children's home to coordinate donations and community outreach.",
+      category: "NGO / Non-Profit",
       image: "/api/placeholder/600/400",
-      technologies: ["Python", "Elasticsearch", "Kafka", "Docker", "Kubernetes"],
-      duration: "6 months",
-      team: "15 developers",
-      budget: "$1.5M",
-      results: [
-        "99.9% threat detection",
-        "Real-time monitoring",
-        "50% faster response",
-        "Zero false positives"
-      ],
-      client: "SecureTech Solutions",
-      year: "2024",
+      technologies: ["JavaScript", "React", "Node.js", "MongoDB"],
+      client: "Place of Grace Community Centre",
+      year: "2025",
+      duration: "4 months",
       status: "Live",
-      links: {
-        live: "https://cyber-command-center.com",
-        github: "https://github.com/belovech/cybersecurity"
-      },
-      icon: Shield
+      icon: Heart,
+      results: [
+        "Streamlined donation processing",
+        "Increased digital visibility for the NGO",
+        "Centralized volunteer management system",
+        "User-friendly interface for non-technical staff"
+      ],
+
     },
     {
       id: 5,
-      title: "Quantum Computing Research Platform",
-      description: "Advanced quantum computing research and development platform",
-      category: "Quantum Computing",
+      title: "Celebrating - App Dashboard",
+      description: "A sophisticated internal analytics dashboard for tracking event engagement and user celebration metrics.",
+      category: "Data Science / Analytics",
       image: "/api/placeholder/600/400",
-      technologies: ["Qiskit", "Python", "Jupyter", "AWS", "Docker"],
-      duration: "18 months",
-      team: "30 developers",
-      budget: "$3.2M",
+      technologies: ["React", "Java", "Chart.js", "SQL"],
+      duration: "6 months",
+      
+      
       results: [
-        "10x faster calculations",
-        "Breakthrough algorithms",
-        "Research publications",
-        "Patent applications"
+        "Interactive data filtering and reporting",
+        "Real-time user engagement tracking",
+        "Optimized database queries for fast reporting",
+        "Exportable PDF/Excel business reports"
       ],
-      client: "Quantum Research Lab",
-      year: "2023",
-      status: "Research",
-      links: {
-        live: "https://quantum-research-platform.com",
-        github: "https://github.com/belovech/quantum-platform"
-      },
-      icon: Zap
-    },
-    {
-      id: 6,
-      title: "Data Analytics Dashboard",
-      description: "Comprehensive business intelligence and analytics platform",
-      category: "Data Science",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Python", "Apache Spark", "PostgreSQL", "Docker"],
-      duration: "7 months",
-      team: "20 developers",
-      budget: "$1.7M",
-      results: [
-        "Real-time insights",
-        "50+ data sources",
-        "Custom dashboards",
-        "Predictive analytics"
-      ],
-      client: "DataCorp Analytics",
-      year: "2024",
+      client: "Celebrating Platform",
+      year: "2026",
       status: "Live",
-      links: {
-        live: "https://analytics-dashboard.com",
-        github: "https://github.com/belovech/analytics"
-      },
-      icon: Database
+     
+      icon: LayoutDashboard
     }
   ],
 
   categories: [
-    { name: "All", count: 24, icon: Code },
-    { name: "Healthcare", count: 4, icon: Monitor },
-    { name: "Finance", count: 5, icon: TrendingUp },
-    { name: "E-commerce", count: 6, icon: Globe },
-    { name: "Cybersecurity", count: 3, icon: Shield },
-    { name: "AI/ML", count: 4, icon: Brain },
-    { name: "Quantum", count: 2, icon: Zap }
+    { name: "All", count: 5, icon: Code },
+    { name: "Cybersecurity", count: 1, icon: Shield },
+    { name: "E-commerce", count: 1, icon: ShoppingBag },
+    { name: "Mobile Apps", count: 1, icon: Share2 },
+    { name: "NGO / Non-Profit", count: 1, icon: Heart },
+    { name: "Data Science / Analytics", count: 1, icon: LayoutDashboard }
   ],
 
   stats: [
-    { label: "Projects Completed", value: "2000+", icon: Award },
-    { label: "Global Clients", value: "500+", icon: Users },
+    { label: "Projects Completed", value: "100+", icon: Award },
+    { label: "Global Clients", value: "50+", icon: Users },
     { label: "Success Rate", value: "98%", icon: TrendingUp },
-    { label: "Countries Served", value: "50+", icon: Globe }
+    { label: "Countries Served", value: "10+", icon: Globe }
   ],
 
   testimonials: [
     {
       quote: "Belovech transformed our entire digital infrastructure. Their expertise and dedication exceeded our expectations.",
-      author: "Sarah Johnson",
-      position: "CTO, Global Health Corp",
-      company: "Healthcare"
+      author: "Julius Ndukuthyo",
+      position: "Media and Publicity",
+      company: "{Place of Grace Community Centre - NGO"
     },
-    {
-      quote: "The AI trading system they built has revolutionized our investment strategies. Outstanding results!",
-      author: "Michael Chen",
-      position: "CEO, Quantum Capital",
-      company: "Finance"
-    },
+
     {
       quote: "Professional, innovative, and results-driven. Belovech is our go-to technology partner.",
-      author: "Emily Rodriguez",
-      position: "VP Technology, MarketPlace Inc",
-      company: "E-commerce"
+      author: "Robert Mowongela",
+      position: "CEO",
+      company: "A tech Startup"
     }
   ]
 }
@@ -281,7 +251,11 @@ export default function PortfolioPage() {
   )
 }
 
-function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProjects }: any) {
+function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProjects }: {
+  selectedCategory: string;
+  setSelectedCategory: (category: string) => void;
+  filteredProjects: Project[];
+}) {
   const { t } = useLanguage()
   
   return (
@@ -393,7 +367,7 @@ function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProje
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {filteredProjects.map((project, index) => (
+              {filteredProjects.map((project: Project, index: number) => (
                 <motion.div
                   key={project.id}
                   initial={{ opacity: 0, y: 30 }}
@@ -445,10 +419,6 @@ function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProje
                           <span className="text-secondary-500 dark:text-secondary-400">{t('portfolio.projectDetails.duration')}:</span>
                           <div className="font-medium text-secondary-900 dark:text-white">{project.duration}</div>
                         </div>
-                        <div>
-                          <span className="text-secondary-500 dark:text-secondary-400">{t('portfolio.projectDetails.budget')}:</span>
-                          <div className="font-medium text-secondary-900 dark:text-white">{project.budget}</div>
-                        </div>
                       </div>
 
                       {/* Technologies */}
@@ -457,7 +427,7 @@ function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProje
                           {t('services.technologies')}:
                         </h4>
                         <div className="flex flex-wrap gap-2">
-                          {project.technologies.map((tech, techIndex) => (
+                          {project.technologies.map((tech: string, techIndex: number) => (
                             <span key={techIndex} className="px-3 py-1 bg-secondary-100 dark:bg-secondary-800 text-secondary-700 dark:text-secondary-300 text-xs rounded-full">
                               {tech}
                             </span>
@@ -471,34 +441,13 @@ function PortfolioContent({ selectedCategory, setSelectedCategory, filteredProje
                           {t('portfolio.projectDetails.results')}:
                         </h4>
                         <div className="grid grid-cols-2 gap-2">
-                          {project.results.map((result, resultIndex) => (
+                          {project.results.map((result: string, resultIndex: number) => (
                             <div key={resultIndex} className="flex items-center text-sm text-secondary-600 dark:text-secondary-300">
                               <div className="w-2 h-2 bg-primary-500 rounded-full mr-2 flex-shrink-0"></div>
                               {result}
                             </div>
                           ))}
                         </div>
-                      </div>
-
-                      {/* Links */}
-                      <div className="flex gap-3">
-                        <Button 
-                          size="sm"
-                          className="flex-1 bg-gradient-to-r from-primary-500 to-accent-500 hover:from-primary-600 hover:to-accent-600 text-white"
-                          onClick={() => window.open(project.links.live, '_blank')}
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          {t('portfolio.viewProject')}
-                        </Button>
-                        <Button 
-                          size="sm"
-                          variant="outline"
-                          className="flex-1"
-                          onClick={() => window.open(project.links.github, '_blank')}
-                        >
-                          <Github className="w-4 h-4 mr-2" />
-                          {t('portfolio.viewCode')}
-                        </Button>
                       </div>
                     </div>
                   </div>
