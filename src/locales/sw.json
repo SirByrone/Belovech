@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "services": "Huduma",
+    "about": "Kuhusu",
+    "portfolio": "Portfolio",
+    "blog": "Blogu",
+    "careers": "Kazi",
+    "contact": "Wasiliana",
+    "aiChat": "Mazungumzo ya AI"
+  },
+  "home": {
+    "hero": {
+      "title": "Kufunua Upeo wa Quantum",
+      "subtitle": "katika Uvumbuzi wa Teknolojia",
+      "whyBelovech": "Kwa nini Belovech?",
+      "ourServices": "Huduma Zetu",
+      "viewAllServices": "Angalia Huduma Zote"
+    },
+    "services": {
+      "softwareDevelopment": "Maendeleo ya Programu",
+      "websiteDevelopment": "Maendeleo ya Tovuti",
+      "aiMachineLearning": "AI na Kujifunza kwa Mashine",
+      "cybersecurity": "Usalama wa Mtandao",
+      "quantumComputing": "Kompyuta za Quantum",
+      "globalInnovation": "Uvumbuzi wa Kimataifa",
+      "devopsCloud": "DevOps na Wingu",
+      "dataScience": "Sayansi ya Data"
+    }
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "subtitle": "Suluhisho za teknolojia za kina zinazokuza uvumbuzi na ukuaji kwa biashara duniani kote",
+    "coreServices": "Huduma za Msingi",
+    "coreServicesDesc": "Safu yetu ya kina ya huduma za teknolojia zilizoundwa kukidhi mahitaji yanayobadilika ya biashara za kisasa",
+    "keyFeatures": "Vipengele Muhimu:",
+    "technologies": "Teknolojia:",
+    "timeline": "Muda:",
+    "industriesWeServe": "Viashiria Tunavyo Hudumia",
+    "industriesDesc": "Kutoa suluhisho maalum katika viashiria mbalimbali na ujuzi wa kina wa kikoa",
+    "additionalServices": "Huduma za Ziada",
+    "additionalServicesDesc": "Huduma maalum na teknolojia mpya za kukamilisha suluhisho zako za msingi",
+    "readyToTransform": "Tayari Kubadilisha Biashara Yako?",
+    "readyToTransformDesc": "Tujadili jinsi suluhisho zetu za teknolojia zinaweza kuleta mafanikio yako",
+    "getStarted": "Anza",
+    "viewOurWork": "Angalia Kazi Yetu",
+    "projects": "Miradi",
+    "clients": "Wateja",
+    "stats": {
+      "projectsCompleted": "Miradi Imekamilika",
+      "globalClients": "Wateja wa Kimataifa",
+      "teamMembers": "Wanachama wa Timu",
+      "countriesServed": "Nchi Zinazo Hudumiwa",
+      "clientSatisfaction": "Uridhisho wa Mteja",
+      "successRate": "Kiwango cha Mafanikio"
+    }
+  },
+  "about": {
+    "title": "Kuhusu Belovech",
+    "subtitle": "Kuimarisha Uvumbuzi wa Kimataifa Kupitia Suluhisho za Teknolojia za Hali ya Juu",
+    "fullTitle": "Belovech - Kufunua Upeo wa Quantum katika Teknolojia",
+    "mission": {
+      "title": "Dhamira Yetu",
+      "content": "Kuimarisha uvumbuzi wa kimataifa kwa kutoa suluhisho za teknolojia za hali ya juu zinazotatua matatizo ya ulimwengu halisi, kukuza maendeleo endelevu na ufikiaji kwa wote, huku tukibadilisha mawazo ya kuona kuwa ukweli unaoweza kuongezeka na unaozingatia mtumiaji kupitia AI ya kimaadili, mifumo salama, na ushirikiano wa kitamaduni."
+    },
+    "vision": {
+      "title": "Maono Yetu",
+      "content": "Kuwa kampuni ya teknolojia inayoongoza duniani, kuimarisha ukuaji wa mabilioni ya dola kupitia teknolojia zinazobadilisha zinazounganisha, kuendesha kiotomatiki, na kuinua jamii duniani kote, kukazia ubora, usalama, na uwezo wa kuongezeka unaojumuisha katika masoko na viashiria mbalimbali."
+    },
+    "valueProposition": {
+      "title": "Dhamana ya Thamani",
+      "content": "Belovech hutoa suluhisho za teknolojia zinazoweza kuongezeka, zinazoendeshwa na AI na kuaminika kwa kiwango cha juu, ubinafsishaji, na msaada wa kimataifa, kutoa faida za ufanisi wa mara 10 kwa gharama za ushindani ili kuongeza biashara kuelekea siku zijazo."
+    },
+    "leadership": {
+      "title": "Timu ya Uongozi",
+      "description": "Timu yetu ya uongozi inaunganisha uzoefu wa miongo kadhaa katika teknolojia, biashara, na uvumbuzi, kukiongoza Belovech kuelekea ukuaji na mafanikio ya kuendelea."
+    }
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Wasiliana na timu yetu",
+    "form": {
+      "name": "Jina",
+      "email": "Barua Pepe",
+      "company": "Kampuni",
+      "phone": "Simu",
+      "subject": "Somo",
+      "department": "Idara",
+      "message": "Ujumbe",
+      "send": "Tuma Ujumbe",
+      "sending": "Inatumwa...",
+      "success": "Ujumbe umetumwa kwa mafanikio!",
+      "error": "Kushindwa kutuma ujumbe. Tafadhali jaribu tena.",
+      "selectDepartment": "Chagua Idara"
+    },
+    "methods": {
+      "email": "Msaada wa Barua Pepe",
+      "phone": "Msaada wa Simu",
+      "office": "Tembelea Ofisi Yetu"
+    }
+  },
+  "careers": {
+    "title": "Kazi",
+    "subtitle": "Jiunge na dhamira yetu ya kubadilisha teknolojia",
+    "openPositions": "Nafasi Wazi",
+    "noPositions": {
+      "title": "Hakuna Nafasi Wazi Kwa Sasa",
+      "subtitle": "Rudi hivi karibuni!",
+      "description": "Sisi daima tunatafuta talanta bora. Rudi mara kwa mara au jiandikishe kwa jarida letu ili kutangazwa wakati fursa mpya zinapopatikana.",
+      "contactUs": "Wasiliana Nasi",
+      "learnMore": "Jifunze Zaidi Kuhusu Sisi"
+    },
+    "applyNow": "Omba Sasa",
+    "departments": {
+      "all": "Zote",
+      "engineering": "Uhandisi",
+      "research": "Utafiti",
+      "security": "Usalama",
+      "quantum": "Quantum",
+      "data": "Data",
+      "devops": "DevOps",
+      "product": "Bidhaa"
+    },
+    "benefits": {
+      "title": "Faida na Mapendeleo",
+      "description": "Tunatoa faida na mapendeleo ya kina kusaidia ustawi na ukuaji wa kitaalamu wa timu yetu",
+      "healthWellness": {
+        "title": "Afya na Ustawi",
+        "items": {
+          "insurance": "Bima ya afya ya kina",
+          "dental": "Bima ya meno na macho",
+          "mental": "Msaada wa afya ya akili",
+          "gym": "Malipo ya uanachama wa gym",
+          "wellness": "Mipango ya ustawi"
+        }
+      },
+      "professionalDevelopment": {
+        "title": "Maendeleo ya Kitaalamu",
+        "items": {
+          "budget": "Bajeti ya kujifunza na maendeleo",
+          "conference": "Kuhudhuria mikutano",
+          "certification": "Malipo ya vyeti",
+          "training": "Mipango ya mafunzo ya ndani",
+          "mentorship": "Fursa za uongozi"
+        }
+      },
+      "workLifeBalance": {
+        "title": "Usawa wa Kazi na Maisha",
+        "items": {
+          "flexible": "Mipango ya kazi ya kubadilika",
+          "remote": "Chaguzi za kazi ya mbali",
+          "pto": "Likizo isiyo na kikomo",
+          "parental": "Likizo ya wazazi",
+          "stipend": "Ruzuku ya kufanya kazi nyumbani"
+        }
+      },
+      "financial": {
+        "title": "Faida za Kifedha",
+        "items": {
+          "salary": "Mshahara wa ushindani",
+          "equity": "Ushiriki wa hisa",
+          "retirement": "401(k) na ushirikiano wa kampuni",
+          "bonuses": "Malipo ya utendaji",
+          "stock": "Mipango ya chaguzi za hisa"
+        }
+      }
+    },
+    "culture": {
+      "title": "Utamaduni Wetu",
+      "description": "Katika Belovech, tunakuza mazingira ya uvumbuzi, ushirikiano, na kujifunza endelevu. Timu yetu tofauti ya wataalamu inafanya kazi pamoja kutatua changamoto ngumu na kuimarisha maendeleo ya teknolojia.",
+      "innovation": {
+        "title": "Uvumbuzi",
+        "description": "Tunahimiza mawazo ya ubunifu na kukubali mawazo mapya yanayosukuma mipaka ya uwezekano."
+      },
+      "collaboration": {
+        "title": "Ushirikiano",
+        "description": "Tunaamini katika nguvu ya kazi ya timu na ushirikiano wa kazi mbalimbali ili kufikia matokeo ya ajabu."
+      },
+      "excellence": {
+        "title": "Ubora",
+        "description": "Tunadumisha viwango vya juu zaidi katika kila kitu tunachofanya, kutoka ubora wa msimbo hadi huduma ya wateja."
+      },
+      "growth": {
+        "title": "Ukuaji",
+        "description": "Tunawekeza katika maendeleo ya watu wetu na kutoa fursa za kujifunza na maendeleo endelevu."
+      }
+    },
+    "stats": {
+      "teamMembers": "Wanachama wa Timu",
+      "countries": "Nchi",
+      "openPositions": "Nafasi Wazi",
+      "employeeSatisfaction": "Uridhisho wa Wafanyakazi"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio Yetu",
+    "subtitle": "Kuonyesha suluhisho za uvumbuzi na miradi ya mafanikio",
+    "featuredProjects": "Miradi Maalum",
+    "allProjects": "Miradi Yote",
+    "filterBy": "Chuja kwa Kategoria",
+    "viewProject": "Angalia Mradi",
+    "viewCode": "Angalia Msimbo",
+    "projectDetails": {
+      "category": "Kategoria",
+      "duration": "Muda",
+      "team": "Timu",
+      "budget": "Bajeti",
+      "client": "Mteja",
+      "year": "Mwaka",
+      "status": "Hali",
+      "results": "Matokeo Muhimu"
+    },
+    "categories": {
+      "all": "Zote",
+      "healthcare": "Afya",
+      "finance": "Fedha",
+      "ecommerce": "Biashara ya Elektroniki",
+      "cybersecurity": "Usalama wa Mtandao",
+      "quantum": "Kompyuta za Quantum",
+      "ai": "AI/ML",
+      "devops": "DevOps"
+    }
+  },
+  "blog": {
+    "title": "Blogu Yetu",
+    "subtitle": "Maoni, habari, na sasisho kutoka ulimwengu wa teknolojia",
+    "featuredArticles": "Makala Maalum",
+    "recentArticles": "Makala za Hivi Karibuni",
+    "readMore": "Soma Zaidi",
+    "readTime": "dakika za kusoma",
+    "by": "Na",
+    "views": "maoni",
+    "likes": "pendwa",
+    "comments": "maoni",
+    "categories": {
+      "all": "Kategoria Zote",
+      "quantum": "Kompyuta za Quantum",
+      "ai": "AI/ML",
+      "cybersecurity": "Usalama wa Mtandao",
+      "software": "Maendeleo ya Programu",
+      "devops": "DevOps",
+      "data": "Sayansi ya Data"
+    },
+    "search": "Tafuta makala...",
+    "filter": "Chuja kwa Kategoria"
+  },
+  "footer": {
+    "description": "Kuimarisha uvumbuzi wa kimataifa kupitia suluhisho za teknolojia za hali ya juu. Kubadilisha mawazo ya kuona kuwa ukweli unaoweza kuongezeka na unaozingatia mtumiaji.",
+    "services": "Huduma",
+    "company": "Kampuni",
+    "resources": "Rasilimali",
+    "stayUpdated": "Endelea Kusasishwa",
+    "newsletterDescription": "Pata maarifa ya hali ya juu za teknolojia na sasisho za kampuni.",
+    "enterEmail": "Ingiza barua pepe yako",
+    "subscribe": "Jiandikishe",
+    "copyright": "© 2024 Belovech. Haki zote zimehifadhiwa.",
+    "top": "Juu",
+    "links": {
+      "aboutUs": "Kuhusu Sisi",
+      "ourTeam": "Timu Yetu",
+      "privacyPolicy": "Sera ya Faragha",
+      "termsOfService": "Masharti ya Huduma",
+      "cookiePolicy": "Sera ya Vidakuzi",
+      "gdprCompliance": "Uzingatifu wa GDPR"
+    }
+  },
+  "aiChat": {
+    "title": "Msaidizi wa AI",
+    "subtitle": "Msaada wa Belovech",
+    "placeholder": "Andika ujumbe wako...",
+    "send": "Tuma",
+    "quickQuestions": "Maswali ya haraka:",
+    "poweredBy": "Inaendeshwa na Belovech AI • Niniweza kukusaidia!",
+    "greeting": "Hujambo! Mimi ni Msaidizi wa AI wa Belovech. Ninaweza kukusaidia nini leo?",
+    "responses": {
+      "services": "Tunatoa suluhisho za teknolojia za kina zikiwemo Maendeleo ya Programu, Maendeleo ya Tovuti, AI na Kujifunza kwa Mashine, Usalama wa Mtandao, Kompyuta za Quantum, Sayansi ya Data, DevOps na Wingu, na ushauri wa Uvumbuzi wa Kimataifa. Tembelea ukurasa wetu wa Huduma ili kujifunza zaidi!",
+      "contact": "Unaweza kutufikia kwa belovechtechnologies@gmail.com au kutupigia simu +254106573717. Unaweza pia kutembelea ukurasa wetu wa Mawasiliano ili kujaza fomu au kupata maeneo ya ofisi zetu duniani kote.",
+      "company": "Belovech ni kampuni ya teknolojia ya kimataifa inayolenga kuimarisha uvumbuzi kupitia suluhisho za teknolojia za hali ya juu. Tumekamilisha miradi 2000+ kwa wateja 500+ katika nchi 50+. Timu yetu ya uongozi inajumuisha Mkurugenzi Mtendaji Byrone Opande, Mkurugenzi wa Teknolojia Samuel Livio, na Mkurugenzi wa Uendeshaji Don Michaels.",
+      "positions": "Kwa sasa, hatuna nafasi wazi, lakini sisi daima tunatafuta talanta bora! Rudi mara kwa mara au wasiliana nasi kwa belovechtechnologies@gmail.com ili kueleza shauku yako.",
+      "pricing": "Tunatoa bei za ubinafsishaji kulingana na mahitaji maalum ya mradi wako. Kila mradi ni wa kipekee, kwa hivyo tunafanya kazi na wewe kuunda suluhisho linalofaa linalofaa bajeti yako na ratiba. Wasiliana nasi kwa bei ya kibinafsi!",
+      "timeline": "Ratiba za miradi hutofautiana kulingana na ugumu. Tovuti rahisi kwa kawaida huchukua miezi 1-3, wakati suluhisho ngumu za biashara zinaweza kuchukua miezi 6-18. Tutatoa ratiba ya kina wakati wa ushauri wetu.",
+      "default": "Nipo hapa kukusaidia! Ninaweza kujibu maswali kuhusu huduma zetu, taarifa za mawasiliano, maelezo ya kampuni, kazi, bei, na mengine. Jaribu kuuliza kuhusu huduma zetu au jinsi ya kutufikia. Kwa maswali maalum zaidi, tafadhali wasiliana nasi kwa belovechtechnologies@gmail.com au piga simu +254106573717."
+    },
+    "questions": {
+      "services": "Huduma gani unatoa?",
+      "contact": "Ninaweza kukufikiaje?",
+      "company": "Nieleze kuhusu kampuni yako",
+      "positions": "Je, una nafasi wazi?",
+      "pricing": "Bei yako ni nini?",
+      "timeline": "Miradi huchukua muda gani?"
+    }
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "close": "Funga",
+    "minimize": "Punguza",
+    "maximize": "Ongeza",
+    "readMore": "Soma Zaidi",
+    "learnMore": "Jifunze Zaidi",
+    "getStarted": "Anza",
+    "contactUs": "Wasiliana Nasi",
+    "viewAll": "Angalia Zote",
+    "globalOffices": "Ofisi za Kimataifa"
+  }
+}
+

@@ -1,0 +1,433 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact",
+    "aiChat": "AI Chat"
+  },
+  "home": {
+    "hero": {
+      "title": "Unveiling Quantum Horizons",
+      "subtitle": "in Technology Innovation",
+      "whyBelovech": "Why Belovech?",
+      "ourServices": "Our Services",
+      "viewAllServices": "View All Services"
+    },
+    "services": {
+      "softwareDevelopment": "Software Development",
+      "websiteDevelopment": "Website Development",
+      "aiMachineLearning": "AI & Machine Learning",
+      "cybersecurity": "Cybersecurity",
+      "quantumComputing": "Quantum Computing",
+      "globalInnovation": "Global Innovation",
+      "devopsCloud": "DevOps & Cloud",
+      "dataScience": "Data Science"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive technology solutions that drive innovation and growth for businesses worldwide",
+    "coreServices": "Core Services",
+    "coreServicesDesc": "Our comprehensive suite of technology services designed to meet the evolving needs of modern businesses",
+    "keyFeatures": "Key Features:",
+    "technologies": "Technologies:",
+    "timeline": "Timeline:",
+    "industriesWeServe": "Industries We Serve",
+    "industriesDesc": "Delivering specialized solutions across diverse industries with deep domain expertise",
+    "additionalServices": "Additional Services",
+    "additionalServicesDesc": "Specialized services and emerging technologies to complement your core solutions",
+    "readyToTransform": "Ready to Transform Your Business?",
+    "readyToTransformDesc": "Let's discuss how our technology solutions can drive your success",
+    "getStarted": "Get Started",
+    "viewOurWork": "View Our Work",
+    "projects": "Projects",
+    "clients": "Clients",
+    "stats": {
+      "projectsCompleted": "Projects Completed",
+      "globalClients": "Global Clients",
+      "teamMembers": "Team Members",
+      "countriesServed": "Countries Served",
+      "clientSatisfaction": "Client Satisfaction",
+      "successRate": "Success Rate"
+    },
+    "serviceDetails": {
+      "softwareDevelopment": {
+        "title": "Software Development",
+        "description": "Custom enterprise-grade software solutions tailored to your business needs"
+      },
+      "websiteDevelopment": {
+        "title": "Website Development",
+        "description": "Modern, responsive websites and web applications that drive business growth"
+      },
+      "aiMachineLearning": {
+        "title": "AI & Machine Learning",
+        "description": "Intelligent solutions powered by advanced artificial intelligence and machine learning"
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity",
+        "description": "Comprehensive protection for your digital assets and infrastructure"
+      },
+      "quantumComputing": {
+        "title": "Quantum Computing",
+        "description": "Next-generation computing solutions for complex optimization problems"
+      },
+      "globalInnovation": {
+        "title": "Global Innovation",
+        "description": "Strategic technology consulting and digital transformation worldwide"
+      },
+      "devopsCloud": {
+        "title": "DevOps & Cloud",
+        "description": "Streamlined development and deployment processes with cloud infrastructure"
+      },
+      "dataScience": {
+        "title": "Data Science",
+        "description": "Transform data into actionable business insights and intelligence"
+      }
+    }
+  },
+  "about": {
+    "title": "About Belovech",
+    "subtitle": "Empowering Global Innovation Through Cutting-Edge Technology Solutions",
+    "fullTitle": "Belovech - Unveiling Quantum Horizons in Tech",
+    "mission": {
+      "title": "Our Mission",
+      "content": "Empower global innovation by delivering cutting-edge tech solutions that solve real-world problems, fostering sustainable advancement and accessibility for all, while transforming visionary ideas into scalable, user-centric realities through ethical AI, secure systems, and cross-cultural collaboration."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "Become the world's leading tech enterprise, driving multibillion-dollar growth through transformative technologies that connect, automate, and elevate societies worldwide, emphasizing quality, security, and inclusive scalability across diverse markets and industries."
+    },
+    "valueProposition": {
+      "title": "Value Proposition",
+      "content": "Belovech provides scalable, AI-driven tech solutions with unmatched reliability, customization, and global support, delivering 10x efficiency gains at competitive costs to propel businesses into the future."
+    },
+    "companyOverview": {
+      "title": "Company Overview",
+      "content": "Founded with a vision to revolutionize technology, Belovech has grown from a startup to a global enterprise, serving clients across multiple countries. Our team of experts combines deep technical expertise with innovative thinking to deliver solutions that transform businesses and communities."
+    },
+    "coreValues": {
+      "title": "Core Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly push the boundaries of what's possible, embracing emerging technologies and creative problem-solving approaches."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We maintain the highest standards in everything we do, from code quality to customer service, ensuring exceptional outcomes."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct business with honesty, transparency, and ethical practices, building trust with our clients and partners."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe in the power of teamwork and partnership, both internally and with our clients, to achieve greater success."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We are committed to environmentally responsible practices and creating solutions that benefit society long-term."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "We ensure our technology is inclusive and accessible to all users, regardless of their abilities or circumstances."
+      }
+    },
+    "leadership": {
+      "title": "Leadership Team",
+      "description": "Our leadership team brings together decades of experience in technology, business, and innovation, guiding Belovech toward continued growth and success."
+    },
+    "achievements": {
+      "title": "Key Achievements",
+      "description": "Over the years, Belovech has achieved significant milestones that demonstrate our commitment to excellence and innovation."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "subject": "Subject",
+      "department": "Department",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again.",
+      "selectDepartment": "Select Department"
+    },
+    "offices": {
+      "title": "Our Offices",
+      "headquarters": "Headquarters",
+      "eastCoast": "East Coast Office",
+      "european": "European Office",
+      "asiaPacific": "Asia Pacific Office"
+    },
+    "departments": {
+      "generalInquiries": "General Inquiries",
+      "generalDesc": "For general questions about our services and company",
+      "sales": "Sales",
+      "salesDesc": "Interested in our services? Contact our sales team",
+      "support": "Support",
+      "supportDesc": "Technical support and customer service",
+      "partnerships": "Partnerships",
+      "partnershipsDesc": "Business partnerships and collaborations",
+      "careers": "Careers",
+      "careersDesc": "Job opportunities and career inquiries",
+      "media": "Media",
+      "mediaDesc": "Press inquiries and media relations"
+    },
+    "methods": {
+      "scheduleCall": "Schedule a Call",
+      "scheduleDesc": "Book a consultation with our experts",
+      "scheduleNow": "Schedule Now",
+      "liveChat": "Live Chat",
+      "liveChatDesc": "Chat with our support team in real-time",
+      "startChat": "Start Chat",
+      "email": "Email Support",
+      "emailDesc": "Send us a detailed message",
+      "sendEmail": "Send Email",
+      "phone": "Phone Support",
+      "phoneDesc": "Call us for immediate assistance",
+      "callNow": "Call Now"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "whatServices": {
+        "question": "What services does Belovech offer?",
+        "answer": "We offer comprehensive technology solutions including software development, AI/ML, cybersecurity, quantum computing, data science, DevOps, and global innovation consulting."
+      },
+      "getStarted": {
+        "question": "How can I get started with a project?",
+        "answer": "Contact our sales team through the contact form or schedule a consultation. We'll discuss your requirements and provide a customized proposal."
+      },
+      "timeline": {
+        "question": "What is your typical project timeline?",
+        "answer": "Project timelines vary based on complexity and scope. Simple websites take 1-3 months, while complex enterprise solutions can take 6-18 months."
+      },
+      "support": {
+        "question": "Do you offer ongoing support?",
+        "answer": "Yes, we provide comprehensive support and maintenance services for all our projects, including 24/7 monitoring and regular updates."
+      },
+      "industries": {
+        "question": "What industries do you serve?",
+        "answer": "We serve diverse industries including healthcare, finance, e-commerce, manufacturing, education, and government sectors."
+      },
+      "security": {
+        "question": "How do you ensure data security?",
+        "answer": "We implement industry-standard security measures including encryption, secure coding practices, regular audits, and compliance with international standards."
+      }
+    }
+  },
+  "careers": {
+    "title": "Careers",
+    "subtitle": "Join our mission to revolutionize technology",
+    "openPositions": "Open Positions",
+    "noPositions": {
+      "title": "No Open Positions at the Moment",
+      "subtitle": "Come back soon!",
+      "description": "We're always looking for exceptional talent. Check back regularly or subscribe to our newsletter to be notified when new opportunities become available.",
+      "contactUs": "Contact Us",
+      "learnMore": "Learn More About Us"
+    },
+    "applyNow": "Apply Now",
+    "departments": {
+      "all": "All",
+      "engineering": "Engineering",
+      "research": "Research",
+      "security": "Security",
+      "quantum": "Quantum",
+      "data": "Data",
+      "devops": "DevOps",
+      "product": "Product"
+    },
+    "benefits": {
+      "title": "Benefits & Perks",
+      "description": "We offer comprehensive benefits and perks to support our team's well-being and professional growth",
+      "healthWellness": {
+        "title": "Health & Wellness",
+        "items": {
+          "insurance": "Comprehensive health insurance",
+          "dental": "Dental and vision coverage",
+          "mental": "Mental health support",
+          "gym": "Gym membership reimbursement",
+          "wellness": "Wellness programs"
+        }
+      },
+      "professionalDevelopment": {
+        "title": "Professional Development",
+        "items": {
+          "budget": "Learning and development budget",
+          "conference": "Conference attendance",
+          "certification": "Certification reimbursement",
+          "training": "Internal training programs",
+          "mentorship": "Mentorship opportunities"
+        }
+      },
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "items": {
+          "flexible": "Flexible work arrangements",
+          "remote": "Remote work options",
+          "pto": "Unlimited PTO",
+          "parental": "Paid parental leave",
+          "stipend": "Work from home stipend"
+        }
+      },
+      "financial": {
+        "title": "Financial Benefits",
+        "items": {
+          "salary": "Competitive salary",
+          "equity": "Equity participation",
+          "retirement": "401(k) with company matching",
+          "bonuses": "Performance bonuses",
+          "stock": "Stock option plans"
+        }
+      }
+    },
+    "culture": {
+      "title": "Our Culture",
+      "description": "At Belovech, we foster an environment of innovation, collaboration, and continuous learning. Our diverse team of experts works together to solve complex challenges and drive technological advancement.",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We encourage creative thinking and embrace new ideas that push the boundaries of what's possible."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe in the power of teamwork and cross-functional collaboration to achieve extraordinary results."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We maintain the highest standards in everything we do, from code quality to customer service."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "We invest in our people's development and provide opportunities for continuous learning and advancement."
+      }
+    },
+    "stats": {
+      "teamMembers": "Team Members",
+      "countries": "Countries",
+      "openPositions": "Open Positions",
+      "employeeSatisfaction": "Employee Satisfaction"
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Showcasing innovative solutions and successful projects",
+    "featuredProjects": "Featured Projects",
+    "allProjects": "All Projects",
+    "filterBy": "Filter by Category",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "projectDetails": {
+      "category": "Category",
+      "duration": "Duration",
+      "team": "Team",
+      "budget": "Budget",
+      "client": "Client",
+      "year": "Year",
+      "status": "Status",
+      "results": "Key Results"
+    },
+    "categories": {
+      "all": "All",
+      "healthcare": "Healthcare",
+      "finance": "Finance",
+      "ecommerce": "E-commerce",
+      "cybersecurity": "Cybersecurity",
+      "quantum": "Quantum Computing",
+      "ai": "AI/ML",
+      "devops": "DevOps"
+    }
+  },
+  "blog": {
+    "title": "Our Blog",
+    "subtitle": "Insights, news, and updates from the tech world",
+    "featuredArticles": "Featured Articles",
+    "recentArticles": "Recent Articles",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "by": "By",
+    "views": "views",
+    "likes": "likes",
+    "comments": "comments",
+    "categories": {
+      "all": "All Categories",
+      "quantum": "Quantum Computing",
+      "ai": "AI/ML",
+      "cybersecurity": "Cybersecurity",
+      "software": "Software Development",
+      "devops": "DevOps",
+      "data": "Data Science"
+    },
+    "search": "Search articles...",
+    "filter": "Filter by Category"
+  },
+  "footer": {
+    "description": "Empowering global innovation through cutting-edge tech solutions. Transforming visionary ideas into scalable, user-centric realities.",
+    "services": "Services",
+    "company": "Company",
+    "resources": "Resources",
+    "stayUpdated": "Stay Updated",
+    "newsletterDescription": "Get the latest tech insights and company updates.",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 Belovech. All rights reserved.",
+    "top": "Top",
+    "links": {
+      "aboutUs": "About Us",
+      "ourTeam": "Our Team",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy",
+      "gdprCompliance": "GDPR Compliance"
+    }
+  },
+  "aiChat": {
+    "title": "AI Assistant",
+    "subtitle": "Belovech Support",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "quickQuestions": "Quick questions:",
+    "poweredBy": "Powered by Belovech AI • Ask me anything!",
+    "greeting": "Hello! I'm Belovech AI Assistant. How can I help you today?",
+    "responses": {
+      "services": "We offer comprehensive technology solutions including Software Development, Website Development, AI & Machine Learning, Cybersecurity, Quantum Computing, Data Science, DevOps & Cloud, and Global Innovation consulting. Visit our Services page to learn more!",
+      "contact": "You can reach us at belovechtechnologies@gmail.com or call us at +254106573717. You can also visit our Contact page to fill out a form or find our office locations worldwide.",
+      "company": "Belovech is a global technology company focused on empowering innovation through cutting-edge tech solutions. We've completed 2000+ projects for 500+ clients across 50+ countries. Our leadership team includes CEO Byrone Opande, CTO Samuel Livio, and COO Don Michaels.",
+      "positions": "Currently, we don't have any open positions, but we're always looking for exceptional talent! Check back regularly or contact us at belovechtechnologies@gmail.com to express your interest.",
+      "pricing": "We provide customized pricing based on your specific project requirements. Each project is unique, so we work with you to create a tailored solution that fits your budget and timeline. Contact us for a personalized quote!",
+      "timeline": "Project timelines vary based on complexity. Simple websites typically take 1-3 months, while complex enterprise solutions can take 6-18 months. We'll provide a detailed timeline during our consultation.",
+      "default": "I'm here to help! I can answer questions about our services, contact information, company details, careers, pricing, and more. Try asking about our services or how to contact us. For more specific inquiries, please contact us at belovechtechnologies@gmail.com or call +254106573717."
+    },
+    "questions": {
+      "services": "What services do you offer?",
+      "contact": "How can I contact you?",
+      "company": "Tell me about your company",
+      "positions": "Do you have open positions?",
+      "pricing": "What's your pricing?",
+      "timeline": "How long do projects take?"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "viewAll": "View All",
+    "globalOffices": "Global Offices"
+  }
+}

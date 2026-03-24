@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "홈",
+    "services": "서비스",
+    "about": "소개",
+    "portfolio": "포트폴리오",
+    "blog": "블로그",
+    "careers": "채용",
+    "contact": "연락처",
+    "aiChat": "AI 채팅"
+  },
+  "home": {
+    "hero": {
+      "title": "양자 지평선을 밝혀내다",
+      "subtitle": "기술 혁신에서",
+      "whyBelovech": "왜 Belovech인가?",
+      "ourServices": "우리의 서비스",
+      "viewAllServices": "모든 서비스 보기"
+    }
+  },
+  "services": {
+    "title": "우리의 서비스",
+    "subtitle": "전 세계 기업의 혁신과 성장을 주도하는 포괄적인 기술 솔루션",
+    "viewDetails": "자세히 보기",
+    "getStarted": "시작하기"
+  },
+  "about": {
+    "title": "Belovech 소개",
+    "subtitle": "최첨단 기술 솔루션을 통한 글로벌 혁신 추진"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "팀에 연락하기"
+  },
+  "careers": {
+    "title": "채용",
+    "subtitle": "기술 혁명을 위한 우리의 사명에 참여하세요",
+    "openPositions": "채용 공고",
+    "noPositions": {
+      "title": "현재 채용 공고가 없습니다",
+      "subtitle": "나중에 다시 확인해주세요!"
+    },
+    "applyNow": "지금 지원하기"
+  },
+  "footer": {
+    "description": "최첨단 기술 솔루션을 통한 글로벌 혁신 추진. 비전을 확장 가능하고 사용자 중심의 현실로 변환.",
+    "services": "서비스",
+    "company": "회사",
+    "resources": "리소스",
+    "stayUpdated": "최신 정보 받기",
+    "enterEmail": "이메일 입력",
+    "subscribe": "구독",
+    "copyright": "© 2024 Belovech. 모든 권리 보유.",
+    "top": "상단"
+  },
+  "aiChat": {
+    "title": "AI 어시스턴트",
+    "subtitle": "Belovech 지원",
+    "placeholder": "메시지 입력...",
+    "send": "보내기",
+    "greeting": "안녕하세요! Belovech AI 어시스턴트입니다. 오늘 어떻게 도와드릴까요?"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "close": "닫기",
+    "contactUs": "문의하기"
+  }
+}
+

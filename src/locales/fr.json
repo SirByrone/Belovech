@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "aiChat": "Chat IA"
+  },
+  "home": {
+    "hero": {
+      "title": "Révéler les Horizons Quantiques",
+      "subtitle": "dans l'Innovation Technologique",
+      "whyBelovech": "Pourquoi Belovech ?",
+      "ourServices": "Nos Services",
+      "viewAllServices": "Voir Tous les Services"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions technologiques complètes qui stimulent l'innovation et la croissance pour les entreprises du monde entier",
+    "viewDetails": "Voir les Détails",
+    "getStarted": "Commencer"
+  },
+  "about": {
+    "title": "À propos de Belovech",
+    "subtitle": "Stimuler l'Innovation Mondiale grâce à des Solutions Technologiques de Pointe"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez notre équipe"
+  },
+  "careers": {
+    "title": "Carrières",
+    "subtitle": "Rejoignez notre mission pour révolutionner la technologie",
+    "openPositions": "Postes Ouverts",
+    "noPositions": {
+      "title": "Aucun Poste Disponible pour le Moment",
+      "subtitle": "Revenez bientôt !"
+    },
+    "applyNow": "Postuler Maintenant"
+  },
+  "footer": {
+    "description": "Stimuler l'innovation mondiale grâce à des solutions technologiques de pointe. Transformer les idées visionnaires en réalités évolutives et centrées sur l'utilisateur.",
+    "services": "Services",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "stayUpdated": "Restez Informé",
+    "enterEmail": "Entrez votre email",
+    "subscribe": "S'abonner",
+    "copyright": "© 2024 Belovech. Tous droits réservés.",
+    "top": "Haut"
+  },
+  "aiChat": {
+    "title": "Assistant IA",
+    "subtitle": "Support Belovech",
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "greeting": "Bonjour ! Je suis l'Assistant IA de Belovech. Comment puis-je vous aider aujourd'hui ?"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "close": "Fermer",
+    "contactUs": "Contactez-nous"
+  }
+}
+

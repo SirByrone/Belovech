@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "aiChat": "KI-Chat"
+  },
+  "home": {
+    "hero": {
+      "title": "Quantenhorizonte Enthüllen",
+      "subtitle": "in der Technologieinnovation",
+      "whyBelovech": "Warum Belovech?",
+      "ourServices": "Unsere Dienstleistungen",
+      "viewAllServices": "Alle Dienstleistungen Anzeigen"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Technologielösungen, die Innovation und Wachstum für Unternehmen weltweit vorantreiben",
+    "viewDetails": "Details Anzeigen",
+    "getStarted": "Loslegen"
+  },
+  "about": {
+    "title": "Über Belovech",
+    "subtitle": "Globale Innovation durch Hightech-Lösungen vorantreiben"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Kontaktieren Sie unser Team"
+  },
+  "careers": {
+    "title": "Karriere",
+    "subtitle": "Treten Sie unserer Mission bei, die Technologie zu revolutionieren",
+    "openPositions": "Offene Stellen",
+    "noPositions": {
+      "title": "Derzeit Keine Offenen Stellen",
+      "subtitle": "Bitte Schauen Sie Später Wieder Vorbei!"
+    },
+    "applyNow": "Jetzt Bewerben"
+  },
+  "footer": {
+    "description": "Globale Innovation durch Hightech-Lösungen vorantreiben. Visionäre Ideen in skalierbare, benutzerzentrierte Realitäten verwandeln.",
+    "services": "Dienstleistungen",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "stayUpdated": "Auf dem Laufenden Bleiben",
+    "enterEmail": "E-Mail Eingeben",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2024 Belovech. Alle Rechte vorbehalten.",
+    "top": "Nach Oben"
+  },
+  "aiChat": {
+    "title": "KI-Assistent",
+    "subtitle": "Belovech Support",
+    "placeholder": "Nachricht Eingeben...",
+    "send": "Senden",
+    "greeting": "Hallo! Ich bin der Belovech KI-Assistent. Wie kann ich Ihnen heute helfen?"
+  },
+  "common": {
+    "loading": "Laden...",
+    "close": "Schließen",
+    "contactUs": "Kontaktieren Sie uns"
+  }
+}
+

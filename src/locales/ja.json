@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "について",
+    "portfolio": "ポートフォリオ",
+    "blog": "ブログ",
+    "careers": "キャリア",
+    "contact": "お問い合わせ",
+    "aiChat": "AIチャット"
+  },
+  "home": {
+    "hero": {
+      "title": "量子の地平線を明らかにする",
+      "subtitle": "技術革新において",
+      "whyBelovech": "なぜBelovech？",
+      "ourServices": "私たちのサービス",
+      "viewAllServices": "すべてのサービスを見る"
+    }
+  },
+  "services": {
+    "title": "私たちのサービス",
+    "subtitle": "世界中の企業の革新と成長を推進する包括的な技術ソリューション",
+    "viewDetails": "詳細を見る",
+    "getStarted": "始める"
+  },
+  "about": {
+    "title": "Belovechについて",
+    "subtitle": "最先端技術ソリューションによるグローバルイノベーションの推進"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "チームに連絡する"
+  },
+  "careers": {
+    "title": "キャリア",
+    "subtitle": "技術を革新する使命に参加する",
+    "openPositions": "空いているポジション",
+    "noPositions": {
+      "title": "現在空いているポジションはありません",
+      "subtitle": "また後でお越しください！"
+    },
+    "applyNow": "今すぐ応募"
+  },
+  "footer": {
+    "description": "最先端技術ソリューションによるグローバルイノベーションの推進。ビジョンをスケーラブルでユーザー中心の現実に変換。",
+    "services": "サービス",
+    "company": "会社",
+    "resources": "リソース",
+    "stayUpdated": "最新情報を受け取る",
+    "enterEmail": "メールアドレスを入力",
+    "subscribe": "購読",
+    "copyright": "© 2024 Belovech。全著作権所有。",
+    "top": "トップ"
+  },
+  "aiChat": {
+    "title": "AIアシスタント",
+    "subtitle": "Belovechサポート",
+    "placeholder": "メッセージを入力...",
+    "send": "送信",
+    "greeting": "こんにちは！Belovech AIアシスタントです。今日はどのようにお手伝いできますか？"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "close": "閉じる",
+    "contactUs": "お問い合わせ"
+  }
+}
+

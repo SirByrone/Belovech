@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于",
+    "portfolio": "作品集",
+    "blog": "博客",
+    "careers": "职业",
+    "contact": "联系",
+    "aiChat": "AI聊天"
+  },
+  "home": {
+    "hero": {
+      "title": "揭示量子视野",
+      "subtitle": "在技术创新中",
+      "whyBelovech": "为什么选择Belovech？",
+      "ourServices": "我们的服务",
+      "viewAllServices": "查看所有服务"
+    },
+    "services": {
+      "softwareDevelopment": "软件开发",
+      "websiteDevelopment": "网站开发",
+      "aiMachineLearning": "人工智能与机器学习",
+      "cybersecurity": "网络安全",
+      "quantumComputing": "量子计算",
+      "globalInnovation": "全球创新",
+      "devopsCloud": "DevOps与云",
+      "dataScience": "数据科学"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "推动全球企业创新和增长的综合技术解决方案",
+    "viewDetails": "查看详情",
+    "getStarted": "开始",
+    "stats": {
+      "projectsCompleted": "已完成项目",
+      "happyClients": "满意客户",
+      "countriesServed": "服务国家",
+      "yearsExperience": "经验年数"
+    },
+    "categories": {
+      "all": "所有服务",
+      "software": "软件开发",
+      "website": "网站开发",
+      "ai": "人工智能与机器学习",
+      "security": "网络安全",
+      "quantum": "量子计算",
+      "data": "数据科学",
+      "devops": "DevOps与云",
+      "innovation": "全球创新"
+    }
+  },
+  "about": {
+    "title": "关于Belovech",
+    "subtitle": "通过尖端技术解决方案推动全球创新",
+    "mission": {
+      "title": "我们的使命",
+      "content": "通过提供解决现实世界问题的尖端技术解决方案，促进可持续发展和所有人的可及性，同时通过道德AI、安全系统和跨文化合作，将愿景转化为可扩展的、以用户为中心的现实。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "content": "成为世界领先的科技企业，通过连接、自动化和提升全球社会的变革性技术，推动数十亿美元的增长，强调质量、安全性和跨不同市场和行业的包容性可扩展性。"
+    },
+    "valueProposition": {
+      "title": "价值主张",
+      "content": "Belovech提供可扩展的、AI驱动的技术解决方案，具有无与伦比的可靠性、定制化和全球支持，以具有竞争力的成本提供10倍效率提升，推动企业走向未来。"
+    },
+    "leadership": {
+      "title": "领导团队",
+      "description": "我们的领导团队汇集了数十年的技术、商业和创新经验，指导Belovech持续增长和成功。"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与我们的团队取得联系",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "subject": "主题",
+      "message": "消息",
+      "send": "发送消息",
+      "sending": "发送中...",
+      "success": "消息发送成功！",
+      "error": "发送消息失败。请重试。"
+    },
+    "methods": {
+      "email": "邮件支持",
+      "phone": "电话支持",
+      "office": "访问我们的办公室"
+    }
+  },
+  "careers": {
+    "title": "职业",
+    "subtitle": "加入我们革命技术的使命",
+    "openPositions": "开放职位",
+    "noPositions": {
+      "title": "目前没有开放职位",
+      "subtitle": "请稍后再来！",
+      "description": "我们一直在寻找优秀人才。请定期查看或订阅我们的新闻通讯，以便在有新机会时收到通知。",
+      "contactUs": "联系我们",
+      "learnMore": "了解更多关于我们"
+    },
+    "applyNow": "立即申请",
+    "departments": {
+      "all": "全部",
+      "engineering": "工程",
+      "design": "设计",
+      "marketing": "营销",
+      "sales": "销售",
+      "operations": "运营"
+    }
+  },
+  "footer": {
+    "description": "通过尖端技术解决方案推动全球创新。将愿景转化为可扩展的、以用户为中心的现实。",
+    "services": "服务",
+    "company": "公司",
+    "resources": "资源",
+    "stayUpdated": "保持更新",
+    "newsletterDescription": "获取最新的技术见解和公司更新。",
+    "enterEmail": "输入您的电子邮件",
+    "subscribe": "订阅",
+    "copyright": "© 2024 Belovech。保留所有权利。",
+    "top": "顶部",
+    "links": {
+      "aboutUs": "关于我们",
+      "ourTeam": "我们的团队",
+      "privacyPolicy": "隐私政策",
+      "termsOfService": "服务条款",
+      "cookiePolicy": "Cookie政策",
+      "gdprCompliance": "GDPR合规"
+    }
+  },
+  "aiChat": {
+    "title": "AI助手",
+    "subtitle": "Belovech支持",
+    "placeholder": "输入您的消息...",
+    "send": "发送",
+    "quickQuestions": "快速问题：",
+    "poweredBy": "由Belovech AI提供支持 • 问我任何问题！",
+    "greeting": "你好！我是Belovech AI助手。今天我能为您做些什么？",
+    "responses": {
+      "services": "我们提供综合技术解决方案，包括软件开发、网站开发、人工智能与机器学习、网络安全、量子计算、数据科学、DevOps与云以及全球创新咨询。访问我们的服务页面了解更多！",
+      "contact": "您可以通过belovechtechnologies@gmail.com联系我们，或致电+254106573717。您也可以访问我们的联系页面填写表格或查找我们在世界各地的办公室位置。",
+      "company": "Belovech是一家专注于通过尖端技术解决方案推动创新的全球科技公司。我们已为50多个国家的500多个客户完成了2000多个项目。我们的领导团队包括CEO Byrone Opande、CTO Samuel Livio和COO Don Michaels。",
+      "positions": "目前，我们没有开放职位，但我们一直在寻找优秀人才！请定期查看或通过belovechtechnologies@gmail.com联系我们表达您的兴趣。",
+      "pricing": "我们根据您的具体项目要求提供定制定价。每个项目都是独特的，因此我们与您合作创建适合您预算和时间表的定制解决方案。联系我们获取个性化报价！",
+      "timeline": "项目时间表根据复杂性而有所不同。简单的网站通常需要1-3个月，而复杂的企业解决方案可能需要6-18个月。我们将在咨询期间提供详细的时间表。",
+      "default": "我在这里帮助您！我可以回答有关我们的服务、联系信息、公司详情、职业、定价等的问题。尝试询问我们的服务或如何联系我们。对于更具体的询问，请通过belovechtechnologies@gmail.com联系我们或致电+254106573717。"
+    },
+    "questions": {
+      "services": "你们提供什么服务？",
+      "contact": "我如何联系你们？",
+      "company": "告诉我关于你们公司",
+      "positions": "你们有开放职位吗？",
+      "pricing": "你们的定价是多少？",
+      "timeline": "项目需要多长时间？"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "close": "关闭",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "readMore": "阅读更多",
+    "learnMore": "了解更多",
+    "getStarted": "开始",
+    "contactUs": "联系我们",
+    "viewAll": "查看全部"
+  }
+}
+

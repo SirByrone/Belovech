@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "portfolio": "Portfólio",
+    "blog": "Blog",
+    "careers": "Carreiras",
+    "contact": "Contato",
+    "aiChat": "Chat IA"
+  },
+  "home": {
+    "hero": {
+      "title": "Revelando Horizontes Quânticos",
+      "subtitle": "na Inovação Tecnológica",
+      "whyBelovech": "Por que Belovech?",
+      "ourServices": "Nossos Serviços",
+      "viewAllServices": "Ver Todos os Serviços"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções tecnológicas abrangentes que impulsionam a inovação e o crescimento para empresas em todo o mundo",
+    "viewDetails": "Ver Detalhes",
+    "getStarted": "Começar"
+  },
+  "about": {
+    "title": "Sobre Belovech",
+    "subtitle": "Impulsionando a Inovação Global através de Soluções Tecnológicas de Ponta"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Entre em contato com nossa equipe"
+  },
+  "careers": {
+    "title": "Carreiras",
+    "subtitle": "Junte-se à nossa missão de revolucionar a tecnologia",
+    "openPositions": "Vagas Abertas",
+    "noPositions": {
+      "title": "Nenhuma Vaga Aberta no Momento",
+      "subtitle": "Volte em breve!"
+    },
+    "applyNow": "Candidatar-se Agora"
+  },
+  "footer": {
+    "description": "Impulsionando a inovação global através de soluções tecnológicas de ponta. Transformando ideias visionárias em realidades escaláveis e centradas no usuário.",
+    "services": "Serviços",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "stayUpdated": "Mantenha-se Atualizado",
+    "enterEmail": "Digite seu email",
+    "subscribe": "Inscrever-se",
+    "copyright": "© 2024 Belovech. Todos os direitos reservados.",
+    "top": "Topo"
+  },
+  "aiChat": {
+    "title": "Assistente IA",
+    "subtitle": "Suporte Belovech",
+    "placeholder": "Digite sua mensagem...",
+    "send": "Enviar",
+    "greeting": "Olá! Sou o Assistente IA da Belovech. Como posso ajudá-lo hoje?"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "close": "Fechar",
+    "contactUs": "Entre em Contato"
+  }
+}
+

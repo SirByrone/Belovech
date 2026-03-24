@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "portfolio": "Portafolio",
+    "blog": "Blog",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "aiChat": "Chat IA"
+  },
+  "home": {
+    "hero": {
+      "title": "Revelando Horizontes Cuánticos",
+      "subtitle": "en Innovación Tecnológica",
+      "whyBelovech": "¿Por qué Belovech?",
+      "ourServices": "Nuestros Servicios",
+      "viewAllServices": "Ver Todos los Servicios"
+    },
+    "services": {
+      "softwareDevelopment": "Desarrollo de Software",
+      "websiteDevelopment": "Desarrollo Web",
+      "aiMachineLearning": "IA y Aprendizaje Automático",
+      "cybersecurity": "Ciberseguridad",
+      "quantumComputing": "Computación Cuántica",
+      "globalInnovation": "Innovación Global",
+      "devopsCloud": "DevOps y Nube",
+      "dataScience": "Ciencia de Datos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones tecnológicas integrales que impulsan la innovación y el crecimiento para empresas de todo el mundo",
+    "viewDetails": "Ver Detalles",
+    "getStarted": "Comenzar",
+    "stats": {
+      "projectsCompleted": "Proyectos Completados",
+      "happyClients": "Clientes Satisfechos",
+      "countriesServed": "Países Atendidos",
+      "yearsExperience": "Años de Experiencia"
+    },
+    "categories": {
+      "all": "Todos los Servicios",
+      "software": "Desarrollo de Software",
+      "website": "Desarrollo Web",
+      "ai": "IA y Aprendizaje Automático",
+      "security": "Ciberseguridad",
+      "quantum": "Computación Cuántica",
+      "data": "Ciencia de Datos",
+      "devops": "DevOps y Nube",
+      "innovation": "Innovación Global"
+    }
+  },
+  "about": {
+    "title": "Acerca de Belovech",
+    "subtitle": "Impulsando la Innovación Global a Través de Soluciones Tecnológicas de Vanguardia",
+    "mission": {
+      "title": "Nuestra Misión",
+      "content": "Impulsar la innovación global mediante la entrega de soluciones tecnológicas de vanguardia que resuelven problemas del mundo real, fomentando el avance sostenible y la accesibilidad para todos, mientras transformamos ideas visionarias en realidades escalables y centradas en el usuario a través de IA ética, sistemas seguros y colaboración intercultural."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "content": "Convertirse en la empresa tecnológica líder mundial, impulsando un crecimiento multimillonario a través de tecnologías transformadoras que conectan, automatizan y elevan las sociedades en todo el mundo, enfatizando la calidad, la seguridad y la escalabilidad inclusiva en diversos mercados e industrias."
+    },
+    "valueProposition": {
+      "title": "Propuesta de Valor",
+      "content": "Belovech proporciona soluciones tecnológicas escalables e impulsadas por IA con una confiabilidad inigualable, personalización y soporte global, entregando ganancias de eficiencia 10x a costos competitivos para impulsar a las empresas hacia el futuro."
+    },
+    "leadership": {
+      "title": "Equipo de Liderazgo",
+      "description": "Nuestro equipo de liderazgo reúne décadas de experiencia en tecnología, negocios e innovación, guiando a Belovech hacia un crecimiento y éxito continuos."
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Póngase en contacto con nuestro equipo",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Por favor, intente nuevamente."
+    },
+    "methods": {
+      "email": "Soporte por Correo",
+      "phone": "Soporte Telefónico",
+      "office": "Visite Nuestra Oficina"
+    }
+  },
+  "careers": {
+    "title": "Carreras",
+    "subtitle": "Únase a nuestra misión para revolucionar la tecnología",
+    "openPositions": "Posiciones Abiertas",
+    "noPositions": {
+      "title": "No Hay Posiciones Abiertas en Este Momento",
+      "subtitle": "¡Vuelva pronto!",
+      "description": "Siempre estamos buscando talento excepcional. Vuelva regularmente o suscríbase a nuestro boletín para ser notificado cuando haya nuevas oportunidades disponibles.",
+      "contactUs": "Contáctenos",
+      "learnMore": "Conozca Más Sobre Nosotros"
+    },
+    "applyNow": "Aplicar Ahora",
+    "departments": {
+      "all": "Todos",
+      "engineering": "Ingeniería",
+      "design": "Diseño",
+      "marketing": "Marketing",
+      "sales": "Ventas",
+      "operations": "Operaciones"
+    }
+  },
+  "footer": {
+    "description": "Impulsando la innovación global a través de soluciones tecnológicas de vanguardia. Transformando ideas visionarias en realidades escalables y centradas en el usuario.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "stayUpdated": "Manténgase Actualizado",
+    "newsletterDescription": "Obtenga las últimas ideas tecnológicas y actualizaciones de la empresa.",
+    "enterEmail": "Ingrese su correo electrónico",
+    "subscribe": "Suscribirse",
+    "copyright": "© 2024 Belovech. Todos los derechos reservados.",
+    "top": "Arriba",
+    "links": {
+      "aboutUs": "Acerca de Nosotros",
+      "ourTeam": "Nuestro Equipo",
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio",
+      "cookiePolicy": "Política de Cookies",
+      "gdprCompliance": "Cumplimiento GDPR"
+    }
+  },
+  "aiChat": {
+    "title": "Asistente IA",
+    "subtitle": "Soporte Belovech",
+    "placeholder": "Escriba su mensaje...",
+    "send": "Enviar",
+    "quickQuestions": "Preguntas rápidas:",
+    "poweredBy": "Impulsado por Belovech IA • ¡Pregúnteme lo que sea!",
+    "greeting": "¡Hola! Soy el Asistente IA de Belovech. ¿Cómo puedo ayudarte hoy?",
+    "responses": {
+      "services": "Ofrecemos soluciones tecnológicas integrales que incluyen Desarrollo de Software, Desarrollo Web, IA y Aprendizaje Automático, Ciberseguridad, Computación Cuántica, Ciencia de Datos, DevOps y Nube, y consultoría de Innovación Global. ¡Visite nuestra página de Servicios para obtener más información!",
+      "contact": "Puede contactarnos en belovechtechnologies@gmail.com o llamarnos al +254106573717. También puede visitar nuestra página de Contacto para completar un formulario o encontrar nuestras ubicaciones de oficinas en todo el mundo.",
+      "company": "Belovech es una empresa tecnológica global enfocada en impulsar la innovación a través de soluciones tecnológicas de vanguardia. Hemos completado más de 2000 proyectos para más de 500 clientes en más de 50 países. Nuestro equipo de liderazgo incluye al CEO Byrone Opande, CTO Samuel Livio y COO Don Michaels.",
+      "positions": "Actualmente, no tenemos posiciones abiertas, ¡pero siempre estamos buscando talento excepcional! Vuelva regularmente o contáctenos en belovechtechnologies@gmail.com para expresar su interés.",
+      "pricing": "Proporcionamos precios personalizados según los requisitos específicos de su proyecto. Cada proyecto es único, por lo que trabajamos con usted para crear una solución adaptada que se ajuste a su presupuesto y cronograma. ¡Contáctenos para una cotización personalizada!",
+      "timeline": "Los cronogramas del proyecto varían según la complejidad. Los sitios web simples generalmente tardan de 1 a 3 meses, mientras que las soluciones empresariales complejas pueden tardar de 6 a 18 meses. Proporcionaremos un cronograma detallado durante nuestra consulta.",
+      "default": "¡Estoy aquí para ayudar! Puedo responder preguntas sobre nuestros servicios, información de contacto, detalles de la empresa, carreras, precios y más. Intente preguntar sobre nuestros servicios o cómo contactarnos. Para consultas más específicas, contáctenos en belovechtechnologies@gmail.com o llame al +254106573717."
+    },
+    "questions": {
+      "services": "¿Qué servicios ofrecen?",
+      "contact": "¿Cómo puedo contactarlos?",
+      "company": "Cuéntame sobre su empresa",
+      "positions": "¿Tienen posiciones abiertas?",
+      "pricing": "¿Cuál es su precio?",
+      "timeline": "¿Cuánto tiempo tardan los proyectos?"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "close": "Cerrar",
+    "minimize": "Minimizar",
+    "maximize": "Maximizar",
+    "readMore": "Leer Más",
+    "learnMore": "Conocer Más",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctenos",
+    "viewAll": "Ver Todo"
+  }
+}
+
