@@ -4,12 +4,12 @@
   "/careers/page": "app/careers/page.js",
   "/contact/page": "app/contact/page.js",
   "/cookie-policy/page": "app/cookie-policy/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/blog/page": "app/blog/page.js",
   "/gdpr/page": "app/gdpr/page.js",
+  "/page": "app/page.js",
+  "/terms/page": "app/terms/page.js",
   "/privacy/page": "app/privacy/page.js",
   "/portfolio/page": "app/portfolio/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/services/page": "app/services/page.js",
-  "/terms/page": "app/terms/page.js",
-  "/page": "app/page.js",
-  "/cookies/page": "app/cookies/page.js"
+  "/services/page": "app/services/page.js"
 }

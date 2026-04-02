@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { getAssetPath } from '@/lib/utils'
 
 export function useResponsiveBackgroundImage() {
   const [isMobile, setIsMobile] = useState(false)
@@ -25,13 +26,13 @@ export function useResponsiveBackgroundImage() {
   const getBackgroundImage = (theme: string): string | undefined => {
     // Both light and dark themes: show image based on screen size
     // Default to mobile image during SSR or before mount
-    if (!mounted) return 'url(/landing-hero.jpg)'
+    if (!mounted) return `url(${getAssetPath('/landing-hero.jpg')})`
     
     // Mobile: landing-hero (both themes)
     // Desktop: Desktop-hero (both themes)
     return isMobile 
-      ? 'url(/landing-hero.jpg)' 
-      : 'url(/Desktop-hero.jpg)'
+      ? `url(${getAssetPath('/landing-hero.jpg')})` 
+      : `url(${getAssetPath('/Desktop-hero.jpg')})`
   }
 
   return {

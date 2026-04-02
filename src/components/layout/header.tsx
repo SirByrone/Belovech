@@ -15,6 +15,7 @@ import { ThemeToggle } from '@/components/ui/theme-toggle'
 import { Button } from '@/components/ui/button'
 import { useChat } from '@/components/ai-chat'
 import { useLanguage } from '@/contexts/language-context'
+import { getAssetPath } from '@/lib/utils'
 
 // Navigation will be translated in component
 
@@ -52,7 +53,7 @@ export function Header() {
               {/* Use theme-appropriate logo */}
               <div className="w-12 h-12 relative">
                 <Image
-                  src={theme === 'dark' ? "/logo.jpg" : "/logo-white.jpg"}
+                  src={getAssetPath(theme === 'dark' ? "/logo.jpg" : "/logo-white.jpg")}
                   alt="Belovech Logo"
                   width={48}
                   height={48}

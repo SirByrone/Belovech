@@ -32,6 +32,7 @@ const XIcon = ({ className, ...props }: { className?: string; [key: string]: any
 )
 import { Button } from '@/components/ui/button'
 import { useLanguage } from '@/contexts/language-context'
+import { getAssetPath } from '@/lib/utils'
 
 
 const socialLinks = [
@@ -105,7 +106,7 @@ export function Footer() {
                 {/* Use your logo image if available, otherwise fallback to CSS logo */}
                 <div className="w-10 h-10 relative">
                   <Image
-                    src="/logo.jpg"
+                    src={getAssetPath('/logo.jpg')}
                     alt="Belovech Logo"
                     width={40}
                     height={40}
