@@ -7,25 +7,27 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { 
   MapPin, 
-  Clock, 
   Users, 
+  Briefcase, 
+  Star, 
+  Heart, 
+  GraduationCap, 
+  Globe, 
+  DollarSign, 
+  Calendar, 
+  Clock, 
+  Code, 
+  Brain, 
+  Shield, 
+  Zap, 
+  Database, 
+  Cloud, 
+  TrendingUp, 
+  CheckCircle, 
+  Building, 
+  Monitor, 
   ArrowRight, 
-  Briefcase,
-  GraduationCap,
-  Heart,
-  Globe,
-  Code,
-  Brain,
-  Shield,
-  Zap,
-  Database,
-  Cloud,
-  TrendingUp,
-  DollarSign,
-  Calendar,
-  CheckCircle,
-  Star,
-  Award
+  Award 
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useResponsiveBackgroundImage } from '@/hooks/useResponsiveBackgroundImage'
@@ -42,6 +44,12 @@ interface JobPosition {
   requirements: string[];
   responsibilities: string[];
   benefits: string[];
+  icon: React.ComponentType<{ className?: string }>;
+  urgent?: boolean;
+  level?: string;
+  salary?: string;
+  posted?: string;
+  applicants?: number;
 }
 
 const careersData: {
@@ -526,7 +534,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
                           <div className="flex items-center space-x-4">
                             <div className="flex items-center">
                               <Calendar className="w-4 h-4 mr-1" />
-                              Posted {new Date(position.posted).toLocaleDateString()}
+                              Posted {position.posted ? new Date(position.posted).toLocaleDateString() : 'Recently'}
                             </div>
                             <div className="flex items-center">
                               <Users className="w-4 h-4 mr-1" />
