@@ -31,18 +31,38 @@ import { Button } from '@/components/ui/button'
 import { useResponsiveBackgroundImage } from '@/hooks/useResponsiveBackgroundImage'
 import { useLanguage } from '@/contexts/language-context'
 
-const careersData = {
+interface JobPosition {
+  id: string;
+  title: string;
+  category: string;
+  location: string;
+  type: string;
+  experience: string;
+  description: string;
+  requirements: string[];
+  responsibilities: string[];
+  benefits: string[];
+}
+
+const careersData: {
+  openPositions: JobPosition[];
+  departments: { name: string; count: number; icon: any }[];
+  benefits: { title: string; items: string[]; icon: any }[];
+  culture: { title: string; description: string; values: { title: string; description: string }[] };
+  stats: { label: string; value: string; icon: any }[];
+} = {
   openPositions: [],
+  
 
   departments: [
-    { name: "all", count: 0, icon: Briefcase },
-    { name: "engineering", count: 0, icon: Code },
+    { name: "all", count: 3, icon: Briefcase },
+    { name: "engineering", count: 2, icon: Code },
     { name: "research", count: 0, icon: Brain },
     { name: "security", count: 0, icon: Shield },
     { name: "quantum", count: 0, icon: Zap },
     { name: "data", count: 0, icon: Database },
     { name: "devops", count: 0, icon: Cloud },
-    { name: "product", count: 0, icon: TrendingUp }
+    { name: "product", count: 1, icon: TrendingUp }
   ],
 
   benefits: [
@@ -116,9 +136,9 @@ const careersData = {
   },
 
   stats: [
-    { label: "teamMembers", value: "200+", icon: Users },
+    { label: "teamMembers", value: "20+", icon: Users },
     { label: "countries", value: "15+", icon: Globe },
-    { label: "openPositions", value: "0", icon: Briefcase },
+    { label: "openPositions", value: "3", icon: Briefcase },
     { label: "employeeSatisfaction", value: "98%", icon: Star }
   ]
 }
@@ -135,7 +155,7 @@ export default function CareersPage() {
 
   const filteredPositions = selectedDepartment === "all" 
     ? careersData.openPositions 
-    : careersData.openPositions.filter(position => position.category === selectedDepartment)
+    : careersData.openPositions.filter((position: JobPosition) => position.category === selectedDepartment)
 
   if (!mounted) {
     return (
@@ -224,7 +244,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
       <section className="py-16 bg-secondary-50 dark:bg-secondary-900">
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {careersData.stats.map((stat, index) => (
+            {careersData.stats.map((stat: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -253,7 +273,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
         <div className="container">
           <div className="max-w-6xl mx-auto px-4">
             <div className="flex flex-wrap justify-center gap-4">
-              {careersData.departments.map((department, index) => (
+              {careersData.departments.map((department: any, index: number) => (
                 <motion.button
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -352,7 +372,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
                   transition={{ delay: 0.4, duration: 0.6 }}
                   className="flex items-center justify-center gap-4 mb-8"
                 >
-                  {[0, 1, 2].map((i) => (
+                  {[0, 1, 2].map((i: number) => (
                     <motion.div
                       key={i}
                       animate={{
@@ -407,7 +427,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
 
                 {/* Floating Particles */}
                 <div className="absolute inset-0 pointer-events-none overflow-hidden">
-                  {[...Array(6)].map((_, i) => (
+                  {[...Array(6)].map((_: any, i: number) => (
                     <motion.div
                       key={i}
                       animate={{
@@ -432,7 +452,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
               </motion.div>
             ) : (
               <div className="space-y-6">
-                {filteredPositions.map((position, index) => (
+                {filteredPositions.map((position: JobPosition, index: number) => (
                 <motion.div
                   key={position.id}
                   initial={{ opacity: 0, y: 30 }}
@@ -492,7 +512,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
                             Key Requirements:
                           </h4>
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                            {position.requirements.slice(0, 4).map((requirement, reqIndex) => (
+                            {position.requirements.slice(0, 4).map((requirement: string, reqIndex: number) => (
                               <div key={reqIndex} className="flex items-center text-sm text-secondary-600 dark:text-secondary-300">
                                 <CheckCircle className="w-4 h-4 text-primary-500 mr-2 flex-shrink-0" />
                                 {requirement}
@@ -557,7 +577,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {careersData.benefits.map((benefit, index) => (
+              {careersData.benefits.map((benefit: any, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
@@ -573,7 +593,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
                     {t(`careers.benefits.${benefit.title}.title`)}
                   </h3>
                   <ul className="space-y-2">
-                    {benefit.items.map((item, itemIndex) => (
+                    {benefit.items.map((item: string, itemIndex: number) => (
                       <li key={itemIndex} className="flex items-center text-sm text-secondary-600 dark:text-secondary-300">
                         <CheckCircle className="w-4 h-4 text-primary-500 mr-2 flex-shrink-0" />
                         {t(`careers.benefits.${benefit.title}.items.${item}`)}
@@ -607,7 +627,7 @@ function CareersContent({ selectedDepartment, setSelectedDepartment, filteredPos
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {careersData.culture.values.map((value, index) => (
+              {careersData.culture.values.map((value: any, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
